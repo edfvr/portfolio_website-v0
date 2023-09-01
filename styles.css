@@ -451,11 +451,13 @@
     font-weight: bolder;
     cursor: pointer;
     transition-duration: 0.4s;
+    border: 2px solid;
+    box-shadow: 0 5px var(--hamburger);
   }
   
   button:hover {
     border: 2px solid;
-    box-shadow: 0 5px var(--hamburger);
+    box-shadow: none;
   }
   
   
@@ -657,3 +659,18 @@
   
   
   /*----------------END------------------*/
+  /*Skeleton Loader*/
+  .skeleton {
+    opacity: .7;
+    animation: skeleton-loading 1s linear infinite alternate;
+  }
+  
+  @keyframes skeleton-loading {
+    0% {
+      background-color: hsl(200, 20%, 70%);
+    }
+  
+    100% {
+      background-color: hsl(200, 20%, 95%);
+    }
+  }
