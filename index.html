@@ -25,8 +25,10 @@
 
                 <span class="nav-modal">
                     <ul class="nav-menu">
-                        <li class="nav-item">
-                            <a href="#welcome-section" class="nav-link"><i class="fa-solid fa-angle-up"></i></a>
+                        <li class="nav-item up">
+                            <div class="mail-icon">
+                                <a href="#welcome-section" class="nav-link"><i class="fa-solid fa-angle-up"></i></a>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a href="#about-section" class="nav-link">About Me</a>
@@ -48,33 +50,33 @@
             <section id="welcome-section">
                 <div class="section-container">
                     <header class="header">
-                        <h1 class="topic">Edmund Sagoe</h1>
+                        <h1 class="topic">Ed Sagoe</h1>
                         <h3 class="subtopic">Web Developer.</h3>
                     </header>
 
-                    <div class="midcard">
-                        
-                    </div>
+                    <div class="midcard"></div>
 
                     <div class="bottomcard">
-                        <p>I design simple yet creative websites. I am currently in university majoring in IT.</p>
+                        <p>I am an IT major who enjoys designing simple but yet creative websites.</p>
                         <span class="panel">
-                            <button type="button" class="resume-btn">
-                                <span class="button-icon">
-                                    <i class="fa-solid fa-file-word"></i>
-                                </span>
-                                <span class="button-text">Resume</span>
-                            </button>
+                            <a href="https://1drv.ms/b/s!ArXeQt9Cgif7hHF0XbkV5amC8Ulb?e=q5DNYq">
+                                <button type="button" class="resume-btn">
+                                    <span class="button-text">Resume</span>
+                                    <span class="button-icon">
+                                        <i class="fa-solid fa-file-pdf"></i>
+                                    </span>
+                                </button>   
+                            </a>
                             <span class="icons-panel">
                                 <a href="mailto:edmund.sagoe.k@gmail.com" target="_blank"><div class="mail-icon">
-                                <i class="fa-regular fa-envelope"></i>
+                                <i class="fa-solid fa-envelope"></i>
                                 </div></a> 
-                                <a href="#" target="_blank">
+                                <a href="https://linkedin.com/in/edmund-sagoe" target="_blank">
                                     <div class="mail-icon">
                                     <i class="fa-brands fa-linkedin"></i>
                                     </div>
                                 </a> 
-                                <a href="#" target="_blank">
+                                <a href="https://twitter.com/edsagoe" target="_blank">
                                     <div class="mail-icon">
                                     <i class="fa-brands fa-twitter"></i>
                                     </div>
@@ -93,7 +95,7 @@
                 <div class="section-container">
                     <h2 class="topic">I'm Edmund Sagoe,</h2>
                     
-                    <p>I am a self-taught web developer who enjoys designing websites. I have built projects with my skills in Responsive Web Design, UI/UX, JavaScript and Python. I have about a year's experience in web design and I'm looking forward to learn more.</p>
+                    <a>As a self-taught web developer with a passion for web design, I have successfully created several projects using my expertise in UI/UX design, HTML, CSS, JavaScript and Python. My present objective is to hone these objectives into job ready proficiency and I am excited about the prospect of collaborating with you towards achieving this goal.</p>
                 </div>
             </aside>
 
@@ -104,33 +106,89 @@
                     <h3 class="subtopic">Selected Projects</h3>
                     <div class="projects">
                         <a href="" class="project-tile">
-                            <img src="public/photo.png" alt="">
-                            <p><span></span>Project Name<span></span></p>
+                            <img src="public/portfolio.png" alt="Portfolio Image">
+                            <div class = "tile-text">
+                                <h3>Porfolio website</h3>
+                                <p>A website showing my works.</p>
+                                <p>Tools: HTML, CSS ,JavaScript</p>
+                            </div>
                         </a>
-                        <a href="" class="project-tile">
-                            <img src="public/photo.png" alt="">
-                            <p><span></span>Project Name<span></span></p>
+
+                        <a href="https://edfvr.github.io/skeleton-loader/" class="project-tile">
+                            <img src="public/skeleton.png" alt="Skeleton Loader image">
+                            <div class = "tile-text">
+                                <h3>Skeleton Loader</h3>
+                                <p>Acts as a placeholder for images and text that are still loading.</p>
+                                <p>Tools: HTML, CSS ,JavaScript</p>
+                            </div>
                         </a>
-                        <a href="" class="project-tile">
-                            <img src="public/photo.png " alt="">
-                            <p><span></span>Project Name<span></span></p>
+
+                        <a href="https://github.com/edfvr/password_gen" class="project-tile">
+                            <img src="https://github.com/edfvr/password_gen/raw/main/password_gen.png" alt="Password Generator image">
+                            <div class = "tile-text">
+                                <h3>Password Generator</h3>
+                                <p>Generates strong passwords with lengths of 8 to 16 characters.</p>
+                                <p>Tools: Python</p>
+                            </div>
                         </a>
                     </div>
-                    <a href="" class="show-all">Show all<i class="fa-solid fa-angle-right"></i></a>
+                    <a href="https://github.com/edfvr" class="show-all">More<i class="fa-solid fa-angle-right"></i></a>
                 </div>
             </section>
 
             <!--CONNECT SECTION-->
             <section id="connect-section">
                 <div class="section-container">
-                    <h2 class="topic">tell me something</h2>
-                    <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam recusandae, obcaecati aut quam cumque sunt similique ipsam dolorem dolore nesciunt placeat pariatur! Odio debitis labore, enim nam fuga ut est.</article>
+                    <h3>Contact Us</h3>
+                    <h2 class="topic">Let's chat</h2>
+                    <form action="https://formspree.io/xbjewjwd" method="POST">
+                        <h2>Send us a message</h2>
+                        
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="Name">Full Name</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" name="Name" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="Name">Email</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="email" name="Email" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="Subject">Subject</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" name="Subject" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="Message">Your message here</label>
+                            </div>
+                            <div class="col-75">
+                                <textarea name="Message" required></textarea>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="form-btn" type="submit">
+                                <span class="button-text">Send</span>
+                                <span class="button-icon"><i class="fa-solid fa-paper-plane"></i></span>
+                            </button>
+                        </div>
+                    </form>              
                 </div>
             </section>
         </main>
 
         <footer>
-
+            <i>Still in development</i>
         </footer>
         <script src="script.js"></script>
     </body>
